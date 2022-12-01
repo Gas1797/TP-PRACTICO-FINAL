@@ -5,6 +5,7 @@ from os import system
 import mult_penales
 import tateti_juego2
 import adivinarnumerojuego
+import juego_azar
 opcion = 0
 
 while opcion!=5:    #cuerpo principal
@@ -19,6 +20,8 @@ while opcion!=5:    #cuerpo principal
         [4] - Juego 4
         [5] - Salir del programa''')
 
+        opcion = input(".")
+
         if opcion ==1:
             mult_penales.multiplospenales()
         elif opcion==2:
@@ -26,6 +29,6 @@ while opcion!=5:    #cuerpo principal
         elif opcion==3:
             adivinarnumerojuego.adivinarnro()
         elif opcion==4:
-            juego.funcionjuego4()
+            juego_azar.minijuegos_azar()
         elif opcion==5:
             sys.exit

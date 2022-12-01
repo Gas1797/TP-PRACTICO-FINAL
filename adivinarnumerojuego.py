@@ -32,4 +32,5 @@ def adivinarnro():
 		op = int(input())
 		if op==dos:break
 	print("¡¡¡Gracias por jugar.!!!")
+	return
 
