@@ -16,11 +16,11 @@ def suma_mat(puntos):
     if resultado==cuenta:           #NUMERO CORRECTO
         print("\n CORRECTO SUMA 3 PUNTOS")
         puntos = 3
-    #else:
-    #    if (resultado > cuenta-10) or (resultado < cuenta+10):  #NUMERO APROX GANA 1 PUNTO
-    #        print("\n SUMA 1 PUNTO")
-    #        puntos = 1
-    #    else:
-    #        print("\n INCORRECTO \n")
-    #        puntos = 0
+    else:
+        if (resultado > cuenta-10 and resultado < cuenta ) or (resultado < cuenta+10 and resultado > cuenta):  #NUMERO APROX GANA 1 PUNTO
+            print("\n SUMA 1 PUNTO")
+            puntos = 1
+        else:
+            print("\n INCORRECTO \n")
+            puntos = 0
     return puntos
