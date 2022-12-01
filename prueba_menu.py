@@ -25,4 +25,4 @@ while opcion!=5:    #cuerpo principal
         elif opcion==4:
             juego.funcionjuego4()
         elif opcion==5:
-            exit
+            sys.exit
