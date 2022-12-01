@@ -2,6 +2,7 @@ import sys
 from sys import exit
 import os
 from os import system
+import mult_penales
 opcion = 0
 
 while opcion!=5:    #cuerpo principal
@@ -10,14 +11,14 @@ while opcion!=5:    #cuerpo principal
         print("\n ---------- \n BIENVENIDO AL MENU ")
         print("Elige una opcion: (Solo ingrese numeros) ")
         print('''
-        [1] - Juego 1
+        [1] - Juego Divisores por penales (Ariel)
         [2] - Juego 2
         [3] - Juego 3
         [4] - Juego 4
         [5] - Salir del programa''')
 
         if opcion ==1:
-            juego.funcionjuego1()
+            mult_penales.multiplospenales()
         elif opcion==2:
             juego.funcionjuego2()
         elif opcion==3:

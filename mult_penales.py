@@ -1,3 +1,4 @@
+import random
 
 def multiplospenales():
     print('█ █▄▄ █ █▀▀ █▄░█ █░█ █▀▀ █▄░█ █ █▀▄ █▀█ █▀   ▄▀█   █░░ █▀█ █▀   █▀▄▀█ █░█ █░░ ▀█▀ █   █▀█ █▀▀ █▄░█ ▄▀█ █░░ █▀▀ █▀ █') 
@@ -68,8 +69,7 @@ def multiplospenales():
  
 #funcion para hacer el numero a dividir. 
 
-
-    import random 
+ 
 
     mult = random.randint(1,9999) 
 
